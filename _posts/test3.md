@@ -1,0 +1,10 @@
+---
+layout: post
+published: True
+title: post test demo blog
+---
+
+实验2：由此可见，nums1=temp 只是修改了nums1指向的对象地址，由 [1,3,5]对象变更为[1,2,3,4,5]。nums2=temp[:]，开辟了新的内存空间指向了另外一个地址（暂时理解为，nums2指向一个地址，元素赋值时只能开辟新的内存空间储存元素，然后将nums指向这个地址，与nums1释放前的地址相同应属于偶然）
+
+结论：
+       nums是指向对象的地址，而nums[:]是对象的全部元素。
