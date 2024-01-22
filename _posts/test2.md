@@ -1,5 +1,5 @@
 ---
-layout: article_layout
+layout: article
 published: True
 title: article_layout test demo blog
 ---
