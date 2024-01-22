@@ -1,12 +1,9 @@
 ---
 layout: page
-title: About
+title: AI-Aided Civil and Infrastructure Engineering
 permalink: /about/
 published: true
 ---
-
-# AI-Aided Civil and Infrastructure Engineering
-
 ## About me 
 hello，我是WDJ. 一名从事AI技术研究的算法工程师，主要专注于AI技术辅助土木与基础设施工程。
 
@@ -18,7 +15,6 @@ hello，我是WDJ. 一名从事AI技术研究的算法工程师，主要专注�
 - AI辅助基础设施建设，智慧建造，智能建造
 
 欢迎志同道合之士与我交流！
-
 
 ----Walker.DJ		
 
