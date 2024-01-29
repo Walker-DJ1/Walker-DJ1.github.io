@@ -60,13 +60,15 @@ HTC 方法可以分为两组：**局部方法和全局方法**。局部方法（
 
 | 项目名称 | Description |
 | --- | --- |
-| 腾讯多层分类项目 |Tencent/NeuralNLP-NeuralClassifier: An Open-source Neural Hierarchical Multi-label Text Classification Toolkit (github.com) |
-| 阿里NLP（best） |Alibaba-NLP/HiAGM: Hierarchy-Aware Global Model for Hierarchical Text Classification (github.com) |
-| Paragraph | RandolphVI/Hierarchical-Multi-Label-Text-Classification： The code of CIKM'19 paper《Hierarchical Multi-label Text Classification： An Attention-based Recurrent Network Approach》 (github.com)|
-| Paragraph |yumeng5/WeSHClass： [AAAI 2019] 弱监督分层文本分类 (github.com)|
-| Paragraph | 	morningmoni/HiLAP：论文“分层文本分类与强化标签分配”EMNLP 2019 的代码 (github.com) |
-| Paragraph | davidwarshaw/hmc：用于基于决策树的分层多分类的 Python 模块 (github.com) |
+| 腾讯多层分类项目 |https://github.com/Tencent/NeuralNLP-NeuralClassifier |
+| 阿里NLP（best） |https://github.com/Alibaba-NLP/HiAGM |
+| Hierarchical-Multi-Label-Text-Classification | https://github.com/RandolphVI/Hierarchical-Multi-Label-Text-Classification|
+| [AAAI 2019] 弱监督分层文本分类 (github.com) |https://github.com/yumeng5/WeSHClass|
+| HiLAP：论文“分层文本分类与强化标签分配”EMNLP 2019 | https://github.com/morningmoni/HiLAP|
+| 用于基于决策树的分层多分类的 Python 模块 | https://github.com/davidwarshaw/hmc |
 
+
+* * *
 
 > Hierarchical Text Classification: a review of current research  
 > https://zhuanlan.zhihu.com/p/409151723  
