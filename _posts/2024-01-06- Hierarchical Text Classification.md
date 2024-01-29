@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: prediction_post
 published: True
 title: Hierarchical Text Classification:层次文本分类
 ---
