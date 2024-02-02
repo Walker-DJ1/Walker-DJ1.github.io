@@ -1,8 +1,13 @@
 ---
-layout: prediction_post
+layout: post
+comments: true
 published: True
-title: Hierarchical Text Classification:层次文本分类
+title: "Hierarchical Text Classification:层次文本分类"
+excerpt: "文本分类 (Text Classification, TC)是自然语言处理 (NLP) 社区中研究最广泛的任务。分层文本分类（Hierarchical Text Classification , HTC）是 TC 的子任务，也是更广泛的分层多标签分类 (HMC) 的一部分。Hierarchical Text Classification 与普通的Text Classification任务不同，预测标签之间存在分级关系，预测得到的标签集合需要满足预先设定好的类目树关系"
+date:   2024-02-01 07:00:00
+mathjax: false
 ---
+
 ## 关键词
 
 - hierarchical textclassification
