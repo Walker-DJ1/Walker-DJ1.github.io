@@ -14,7 +14,9 @@ mathjax: false
 - hierarchical multilabel classification
 
 * * *
-
+![表3](https://github.com/Walker-DJ1/Walker-DJ1.github.io/blob/master/image_data/llama1/3-TABLE3-1.png)
+![表3](https://github.com/Walker-DJ1/Walker-DJ1.github.io/blob/master/image_data/llama1/3-TABLE3-1.png)
+表 3：Zero-shot performance on Common Sense Reasoning tasks
 ## 引言
 
 **文本分类 (Text Classification, TC)** 是自然语言处理 (NLP) 社区中研究最广泛的任务。分层文本分类（Hierarchical Text Classification , HTC）是 TC 的子任务，也是更广泛的分层多标签分类 (HMC) 的一部分。==Hierarchical Text Classification 与普通的Text Classification任务不同，预测标签之间存在分级关系，预测得到的标签集合需要满足预先设定好的类目树关系==
