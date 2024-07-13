@@ -2,11 +2,10 @@
 layout: post
 comments: true
 published: True
-title: "Transformer 是如何工作的：TRANSFORMERS FROM SCRATCH"
-date:   2024-07-13 17:06:00
-mathjax: ture
+title: "Transformer 是一类非常令人着迷的机器学习架构（a family of machine learning architectures）。 之前已经有一些不错的介绍文章（例如 [1, 2]），但过去几年 transformer 变得简单了很多， 因此要解释清楚现代架构（modern architectures）是如何工作的，比以前容易多了。本文试图丢掉历史包袱，开门见山地解释现代 transformer 的工作原理。"
+date:   2024-06-18 17:00:00
+mathjax: false
 ---
-
 
 #  Transformer 是如何工作的：TRANSFORMERS FROM SCRATCH
 * * *
@@ -495,7 +494,7 @@ dot = F.softmax(dot, dim=2)
 我们使用由 12 个 transformer block 和 256 个嵌入维度组成的 transformer，对长度为 256 的序列进行训练。 在 RTX 2080Ti（大约 170K 个大小为 32 的批次）上训练了大约 24 小时后， 让模型从 256 个字符的种子开始生成：对于每个字符，输入它前面的 256 个字符， 然后预测下一个字符。 我们从temperature 为 0.5 的那个开始采样，然后移动到下一个字符。
 
 输出如下所示：
->1228X Human & Rousseau. Because many of his stories were originally published in long-forgotten magazines and journals, there are a number of [[anthology|anthologies]] by different collators each containing a different selection. His original books have been considered an anthologie in the [[Middle Ages]], and were likely to be one of the most common in the [[Indian Ocean]] in the [[1st century]]. As a result of his death, the Bible was recognised as a counter-attack by the [[Gospel of Matthew]] (1177-1133), and the [[Saxony|Saxons]] of the [[Isle of Matthew]] (1100-1138), the third was a topic of the [[Saxony|Saxon]] throne, and the [[Roman Empire|Roman]] troops of [[Antiochia]] (1145-1148). The [[Roman Empire|Romans]] resigned in [[1148]] and [[1148]] began to collapse. The [[Saxony|Saxons]] of the [[Battle of Valasander]] reported the y
+1228X Human & Rousseau. Because many of his stories were originally published in long-forgotten magazines and journals, there are a number of [[anthology|anthologies]] by different collators each containing a different selection. His original books have been considered an anthologie in the [[Middle Ages]], and were likely to be one of the most common in the [[Indian Ocean]] in the [[1st century]]. As a result of his death, the Bible was recognised as a counter-attack by the [[Gospel of Matthew]] (1177-1133), and the [[Saxony|Saxons]] of the [[Isle of Matthew]] (1100-1138), the third was a topic of the [[Saxony|Saxon]] throne, and the [[Roman Empire|Roman]] troops of [[Antiochia]] (1145-1148). The [[Roman Empire|Romans]] resigned in [[1148]] and [[1148]] began to collapse. The [[Saxony|Saxons]] of the [[Battle of Valasander]] reported the y
 
 ### 6.4.3 文本生成结果分析
 对于上面的输出，应该注意到，
