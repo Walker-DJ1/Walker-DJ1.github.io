@@ -3,6 +3,7 @@ layout: post
 comments: true
 published: True
 title: "Transformer 是如何工作的：TRANSFORMERS FROM SCRATCH"
+excerpt: "Transformer 是一类非常令人着迷的机器学习架构（a family of machine learning architectures）。 之前已经有一些不错的介绍文章（例如 [1, 2]），但过去几年 transformer 变得简单了很多， 因此要解释清楚现代架构（modern architectures）是如何工作的，比以前容易多了。本文试图丢掉历史包袱，开门见山地解释现代 transformer 的工作原理。"
 date:   2024-06-18 17:00:00
 mathjax: false
 ---
