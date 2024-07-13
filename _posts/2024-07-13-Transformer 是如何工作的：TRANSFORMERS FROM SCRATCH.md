@@ -195,7 +195,7 @@ $v_{\mathrm{i}}=W_{\mathrm{v}}\mathbf{x}_{\mathrm{i}}$
 那么 (i,j) 位置处的权重矩阵就可以表示为：
 $w_{\mathrm{ij}}^{\prime}=\mathbf{q}_{\mathrm{i}}^{\textrm{T}}\mathbf{k}_{\mathrm{j}}$
 做归一化处理，
-$w_{\mathrm{ij}}=\mathrm{softmax}(w_{\mathrm{ij}}^{\prime})$
+
 最后，output vector 中位置 j 处的值为：
 $\mathbf{y}_{\mathrm{i}}=\sum_{\mathrm{j}}w_{\mathrm{ij}}v_{\mathrm{j}}$
 这就给 self-attention layer 引入了几个可控制的参数（controllable parameters, 𝐖q, 𝐖k, 𝐖v）， 对同一份输入应用不同的线性变换，就可以得到不同角色所需的值，如下图所示，
