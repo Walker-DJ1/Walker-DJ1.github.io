@@ -205,7 +205,6 @@ self-attention key/query/value transformation 的直观解释
 原来执行 softmax 之前的权重矩阵：
 $w_{\mathrm{ij}}^{\prime}=\mathbf{q}_{\mathrm{i}}^{\textrm{T}}\mathbf{k}_{\mathrm{j}}$
 现在：
-$w_{\mathrm{ij}}^{\prime}=\frac{{\bf q}_{\mathrm{i}}^{\mathrm{\normalsize~T}}{\bf k}_{\bar{\imath}}}{\sqrt{\mathrm{k}}}$
 
  > Why sqrt(k) Imagine a vector in ℝk with values all c. Its Euclidean length is  sqrt(k) *c. Therefore, we are dividing out the amount by which the increase in dimension increases the length of the average vectors
 
