@@ -665,4 +665,8 @@ Transformer 很可能是未来几十年占主导地位的最简单机器学习�
 到目前为止，transformer 还主要被视为一种语言模型。希望随着时间推移， 我们会看到它在其他领域得到更多采用，不仅是提高这些领域的效率，还包括简化这些领域的现有模型， 让从业者能更直观地控制他们模型的归纳偏差。
 
 
-end
+参考资料
+> The illustrated transformer, Jay Allamar.
+> The annotated transformer, Alexander Rush.
+> The knowledge graph as the default data model for learning on heterogeneous knowledge Xander Wilcke, Peter Bloem, Victor de Boer
+> Matrix factorization techniques for recommender systems Yehuda Koren et al.
