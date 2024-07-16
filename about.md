@@ -13,17 +13,44 @@ Hi，我是一名**AI算法工程师**，正效力于在一家头部的互联网
 
 **工作**：我们的工作更注重实际应用的创新和实施。我们相信，通过AI的力量，可以为土木工程领域带来前所未有的变革和进步。我们将定期分享行业内最尖端的技术论文，以促进知识的交流与思想的碰撞。诚邀您加入我们的旅程，共同见证并参与这一激动人心的变革，欢迎订阅。
 **主要技术栈**：
-|计算机视觉 Computer Vision (CV) | 自然语言处理 Natural Language Processing (NLP) |
-|---------------------------|----------------------------|
-|三维重建 3D Reconstruction | 大语言模型预训练、微调 Pre-trained Language Models, Fine-tuning |
-|视觉跟踪 Visual Tracking|文本分类 Text Classification|
-|立体视觉 Stereo Vision|命名实体识别 Named Entity Recognition (NER)|
-|文本识别 Text Recognition (OCR)|词性标注 Part-of-Speech Tagging (POS Tagging)|
-|目标检测技术 Object Detection|文本生成 Text Generation|
-|图像分类 Image Classification|信息检索 Information Retrieval (IR)|
-|图像分割 Image Segmentation|信息抽取 Information Extraction (IE)|
-|姿态估计 Pose Estimation|对话系统 Chatbots|
-
+<table>
+  <tr>
+    <th>计算机视觉 Computer Vision (CV)</th>
+    <th>自然语言处理 Natural Language Processing (NLP)</th>
+  </tr>
+  <tr>
+    <td>三维重建 3D Reconstruction</td>
+    <td>大语言模型预训练、微调 Pre-trained Language Models, Fine-tuning</td>
+  </tr>
+  <tr>
+    <td>视觉跟踪 Visual Tracking</td>
+    <td>文本分类 Text Classification</td>
+  </tr>
+  <tr>
+    <td>立体视觉 Stereo Vision</td>
+    <td>命名实体识别 Named Entity Recognition (NER)</td>
+  </tr>
+  <tr>
+    <td>文本识别 Text Recognition (OCR)</td>
+    <td>词性标注 Part-of-Speech Tagging (POS Tagging)</td>
+  </tr>
+  <tr>
+    <td>目标检测技术 Object Detection</td>
+    <td>文本生成 Text Generation</td>
+  </tr>
+  <tr>
+    <td>图像分类 Image Classification</td>
+    <td>信息检索 Information Retrieval (IR)</td>
+  </tr>
+  <tr>
+    <td>图像分割 Image Segmentation</td>
+    <td>信息抽取 Information Extraction (IE)</td>
+  </tr>
+  <tr>
+    <td>姿态估计 Pose Estimation</td>
+    <td>对话系统 Chatbots</td>
+  </tr>
+</table>
 
 ## About technology
 
