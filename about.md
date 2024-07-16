@@ -4,7 +4,7 @@ title: AI-Aided Civil and Infrastructure Engineering Blog
 permalink: /about/
 published: true
 ---
-# Walker-DJ的博客空间
+*-----------Walker-DJ的博客空间------------------*
 * * *
 ## About me 
 Hi，我是一名**AI算法工程师**，正效力于在一家头部的互联网企业中，深入**研究AI（自然语言处理、计算机视觉、深度学习、机器学习）相关前沿技术**。我的教育背景植根于土木工程与古建筑保护的深厚土壤，如今我将这份对建筑行业的尊重与对创新的追求融合，以AI的新质生产力，为土木与基础设施工程的智能化转型注入活力。
