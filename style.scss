@@ -971,18 +971,46 @@ references{
 
 /* 添加到 <head> 部分或外部CSS文件 */
 table {
-  width: 100%; /* 根据需要调整表格宽度 */
-  border-collapse: collapse; /* 边框合并 */
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0; /* 添加外边距 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
 }
 
-table, th, td {
-  border: 1px solid black; /* 设置边框样式 */
-  padding: 8px; /* 设置单元格内边距 */
-  text-align: left; /* 设置文本对齐方式 */
+th, td {
+  border: 1px solid #ddd; /* 浅色边框 */
+  padding: 15px;
+  text-align: left;
+  transition: all 0.3s ease; /* 平滑过渡效果 */
 }
 
 th {
-  background-color: #f2f2f2; /* 可以为表头设置不同的背景色 */
+  background-color: #4CAF50; /* 表头背景色 */
+  color: white; /* 文字颜色 */
+  font-weight: bold; /* 加粗字体 */
+  text-transform: uppercase; /* 文字大写 */
+}
+
+td {
+  background-color: #f9f9f9; /* 单元格背景色 */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* 偶数行背景色 */
+}
+
+tr:hover {
+  background-color: #ddd; /* 鼠标悬浮行背景色 */
+}
+
+th:first-child, td:first-child {
+  border-right: 2px solid #fff; /* 第一列边框加粗 */
+  border-radius: 5px 0 0 5px; /* 圆角边框 */
+}
+
+th:last-child, td:last-child {
+  border-left: 2px solid #fff; /* 最后一列边框加粗 */
+  border-radius: 0 5px 5px 0; /* 圆角边框 */
 }
 
 
