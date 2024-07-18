@@ -62,7 +62,7 @@ Hi，我是一名**AI算法工程师**，正效力于在一家头部的互联网
 <img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E8%A7%86%E8%A7%89%E5%8F%98%E5%BD%A2%E7%9B%91%E6%B5%8B%2F1721304168668.jpg"  style="zoom:60%" />
 </p>
 
-[Read more](https://walker-dj1.github.io/视觉变形监测/)
+[Read more](https://walker-dj1.github.io/基于视觉方法(CV)的结构变形监测/)
  
 【2】计算机视觉裂缝监测
 todo
