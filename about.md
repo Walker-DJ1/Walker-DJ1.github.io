@@ -65,7 +65,7 @@ Hi，我是一名**AI算法工程师**，正效力于在一家头部的互联网
 [Read more](https://walker-dj1.github.io/基于视觉方法(CV)的结构变形监测/)
  
 【2】计算机视觉裂缝监测
-todo
+todo2
 
 【3】 计算机视觉三维重建
 todo
