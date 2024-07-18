@@ -60,10 +60,10 @@ Hi，我是一名**AI算法工程师**，正效力于在一家头部的互联网
 单台数码相机可以获得水平位移和垂直位移，称为二维(2d)位移。结构的位移响应是结构性能检测以及状态评估的硬性指标。在正常荷载范围下，位移信息的极值、波动范围能够表征结构的安全性。
 本文利用视觉整体变形监测系统（由硬件设备和软件系统组成）评估了基于视觉方法的建筑整体变形监测系统在偶然荷载快速振动工况下的性能。并且采用视归一化均方根误差(normalized root mean square error, NRMSE)进行误差分析。
 <p style="text-align: center;">
-<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E8%A7%86%E8%A7%89%E5%8F%98%E5%BD%A2%E7%9B%91%E6%B5%8B%2F1721304146615.jpg"  style="zoom:60%" />
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E8%A7%86%E8%A7%89%E5%8F%98%E5%BD%A2%E7%9B%91%E6%B5%8B%2F1721304168668.jpg"  style="zoom:60%" />
 </p>
-read more
- [Read more](https://github.com/Walker-DJ1/Walker-DJ1.github.io/blob/master/_posts/%E8%A7%86%E8%A7%89%E5%8F%98%E5%BD%A2%E7%9B%91%E6%B5%8B.md)
+
+[Read more](https://github.com/Walker-DJ1/Walker-DJ1.github.io/blob/master/_posts/%E8%A7%86%E8%A7%89%E5%8F%98%E5%BD%A2%E7%9B%91%E6%B5%8B.md)
  
 【2】计算机视觉裂缝监测
 todo
