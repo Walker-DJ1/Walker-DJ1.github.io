@@ -43,7 +43,7 @@ published: true
 <img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E8%A3%82%E7%BC%9D%E7%9B%91%E6%B5%8B%2F1721309816609.jpg"  style="zoom:40%" />
 </p>
 
-[Read more](https://walker-dj1.github.io/基于计算机视觉方法(CV)的裂缝生长变形监测/)
+[Read more](https://walker-dj1.github.io/基于计算机视觉(CV)的裂缝生长变形监测/)
 
 【3】 计算机视觉三维重建
 todo
