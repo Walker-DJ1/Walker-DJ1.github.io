@@ -48,6 +48,12 @@ published: true
 
 - **基于图像分割模型(U-net)的裂缝分割**
 
+**Abstract**：裂缝图像的分割和提取技术对裂缝的视觉检测和长期监测具有重要意义。本文针对墙裂缝提取需求，构建基于深度学习U-Net模型的智能壁画裂缝语义分割模型。该模型能智能检测复杂背景墙体中的裂缝，并分割出裂缝区域，对光照、阴影的干扰具有极高鲁棒性。。
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E8%A3%82%E7%BC%9D%E5%88%86%E5%89%B2%2F1721317032343.jpg"  style="zoom:60%" />
+</p>
+
+
 [Read more](https://walker-dj1.github.io/基于计算机视觉方法(CV)的裂缝生长变形监测/)
 
 
