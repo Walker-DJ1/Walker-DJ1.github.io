@@ -1,0 +1,50 @@
+---
+layout: post
+comments: true
+published: True
+title: " 多视角几何三维重建法识别工程结构缺损与变形"
+excerpt: "结构表面缺损与构件变形是既有结构现场检测或长期监测的重要指标，也是安全性评估、鉴定的重要依据，典型如混凝土结构表面裂缝、漏筋，钢结构锈蚀、螺栓脱落，钢结构构件弯曲变形与板材局部屈曲等。多视角几何三维重建法具有现场操作方便、操作技术要求低、设备成本低廉等优势，且相对而言精度满足工程要求，在工程实践中具有明显优势。"
+date:   2024-07-20 15:00:00
+mathjax: false
+---
+
+
+### 研究意义
+结构表面缺损与构件变形是既有结构现场检测或长期监测的重要指标，也是安全性评估、鉴定的重要依据，典型如混凝土结构表面裂缝、漏筋，钢结构锈蚀、螺栓脱落，钢结构构件弯曲变形与板材局部屈曲等。多视角几何三维重建法具有现场操作方便、操作技术要求低、设备成本低廉等优势，且相对而言精度满足工程要求，在工程实践中具有明显优势。
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2F1e7ac9993cbd82ac1d9096daa0d1e5c0.png"  style="zoom:40%" />
+</p>
+结合多视角几何三维重建法，可有效解决定量检测中图像几何变形修正困难、局部损伤难以在整体结构中定位、无法测量钢结构空间变形等问题，提高数字图像法的适用性并扩展技术的应用场景。
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2Fd0ead38878dc083e7893d73aadb2cdc9.png"  style="zoom:50%" />
+</p>
+
+### 识别流程
+多视角几何三维重建法的成功实现依赖于后期算法处理。首先，数字图像要经过图像畸变矫 正 (Image undistortion) 完成预处理；在此之后，经过 特征点识别 (Feature extraction)、特征点匹配 (Feature matching)、 相 机 运 动 参 数 估 计 (Camera motion estimation)、模型优化 (Model optimization)、稀疏 点云三维重建 (Sparse point cloud 3D reconstruction) 等步骤，完成运动恢复结构 (Structure from Motion, SfM) 运算，获得相机空间参数及稀疏三维点云模型。 在此基础上，利用获得的参数与模型，进行密集 三维点云重建 (Dense point cloud 3D reconstruction)， 获取密集的三维点云模型。完整的多视角几何三 维重建法步骤见图所示：
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2F19612bfb9131abb5cb60f7d6801e1d49.png"  style="zoom:50%" />
+</p>
+如果投影过程采用了多视角几何三维重建的结构整体模型，可以实现损伤在整体模型中的准确定位，化解损伤识别精度与损伤定位的矛盾。进一步地发展损伤定位优势，集成硬件设备，可实现损伤的长期监测。上述操作中，二维数字图像的损伤识别可由数字图像处理方法或深度卷积神经网络方法实现。
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2Fb825f5e313acf45618ff7fb06a658818.png"  style="zoom:60%" />
+</p>
+结构表面单个平面、结构表面多个平面以及结构曲形表面的裂缝投影示例，投影使用的裂缝图像为1张或多张。利用上述方法完成裂缝投影后，可得到裂缝体在三维模型中的形态与参数，完成裂缝形态的修正以及裂缝在三维模型中的位置标记。进一步地，利用投影后的裂缝宽度特征点计算裂缝宽度，即可得到准确、无变形的裂缝参数。
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2F982817a8a700427ef23fd19f872b2fd6.png"  style="zoom:40%" />
+</p>
+大型构筑物以及桥梁、隧道、大坝、路面等工程结构的损伤检查中，单张照片中损伤定位的难度较大，采用表面投影方法可有效解决该问题。以某冷却塔外壁损伤识别为例，该冷却塔塔高70m，长期使用后塔筒混凝土出现严重的破损、漏筋等耐久性问题，现因改变使用需求须加固改造。结构安全测性检查中，采用多视角几何三维重建方法，对塔测结构表面模型筒外壁进行三维重建。图像拍摄使用佳能EOS5D测点P2测点P3结构表面模测点P1MarkIII相机，图像分辨率5760×3840。共使用测点P1线58张不同视角环绕拍摄的图像完成重建，建立了各张图片与整体三维模型的对应关系，使得任何一张图片中标记出的损伤都可投影、定位于整体三维模型。
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2F91164915a2190ad3b5e07a1b8224b8b7.png"  style="zoom:50%" />
+</p>
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2F82123d5d0e33e24c357d573ab083e47c.png"  style="zoom:50%" />
+</p>
+钢结构构件的几何变形在工程结构现场检查中较为常见，典型如网架的杆件弯曲、钢桁架角钢局部屈曲等。采用工程建模与特征提取方法可准确识别空间几何变形损伤。
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2Fe15fc6588e3d53858e220c70252c6eb6.png"  style="zoom:50%" />
+</p>
+
+### 结论
+- 多视角几何三维重建法以运动恢复结构为核心算法，采用逆向工程建模与特征提取识别几何变形，可有效识别结构表面缺损与变形
+- 在精确定量检测中，可实现透射变形与复杂结构表面投影的几何变形的修正，获取准确的表面损伤分布、形状与其它参数
+- 在大场景定量检测中，可在保持检测精度的同时，实现损伤定位，进一步生成损伤分布图
