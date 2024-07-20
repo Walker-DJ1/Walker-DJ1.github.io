@@ -47,7 +47,7 @@ published: true
 
 - **基于图像分割模型(U-net)的裂缝分割**
 
-**Abstract**：裂缝图像的分割和提取技术对裂缝的视觉检测和长期监测具有重要意义。本文针对墙裂缝提取需求，构建基于深度学习U-Net模型的智能壁画裂缝语义分割模型。该模型能智能检测复杂背景墙体中的裂缝，并分割出裂缝区域，对光照、阴影的干扰具有极高鲁棒性。。
+**Abstract**：裂缝图像的分割和提取技术对裂缝的视觉检测和长期监测具有重要意义。本文针对墙裂缝提取需求，构建基于深度学习U-Net模型的智能壁画裂缝语义分割模型。该模型能智能检测复杂背景墙体中的裂缝，并分割出裂缝区域，对光照、阴影的干扰具有极高鲁棒性。
 <p style="text-align: center;">
 <img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E8%A3%82%E7%BC%9D%E5%88%86%E5%89%B2%2F1721317032343.jpg"  style="zoom:50%" />
 </p>
@@ -55,6 +55,16 @@ published: true
 
 [Read more](https://walker-dj1.github.io/基于图像分割模型(U-net)的裂缝分割/)
 
+
+- **多视角几何三维重建法识别工程结构缺损与变形**
+
+**Abstract**：结构表面缺损与构件变形是既有结构现场检测或长期监测的重要指标，也是安全性评估、鉴定的重要依据，典型如混凝土结构表面裂缝、漏筋，钢结构锈蚀、螺栓脱落，钢结构构件弯曲变形与板材局部屈曲等。多视角几何三维重建法具有现场操作方便、操作技术要求低、设备成本低廉等优势，且相对而言精度满足工程要求，在工程实践中具有明显优势。
+
+<p style="text-align: center;">
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E5%A4%9A%E8%A7%86%E8%A7%92%E4%B8%89%E7%BB%B4%E9%87%8D%E5%BB%BA%2F91164915a2190ad3b5e07a1b8224b8b7.png"  style="zoom:50%" />
+</p>
+
+[Read more](https://walker-dj1.github.io/多视角几何三维重建法识别工程结构缺损与变形/)
 
 
 * * *
