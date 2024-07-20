@@ -31,7 +31,7 @@ published: true
 
 **Abstract**：结构的位移响应是结构性能检测以及状态评估的硬性指标。单台数码相机可以获得水平位移和垂直位移，称为二维(2d)位移。本文利用视觉整体变形监测系统（由硬件设备和软件系统组成）评估了基于视觉方法的建筑整体变形监测系统的性能。
 <p style="text-align: center;">
-<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E8%A7%86%E8%A7%89%E5%8F%98%E5%BD%A2%E7%9B%91%E6%B5%8B%2F1721304168668.jpg"  style="zoom:60%" />
+<img src="https://wdj-data-1328038871.cos.ap-nanjing.myqcloud.com/blog_data%2F%E8%A3%82%E7%BC%9D%E7%9B%91%E6%B5%8B%2Fda03888245a344253f881a581b2e3e60.png"  style="zoom:60%" />
 </p>
 [Read more](https://walker-dj1.github.io/基于计算机视觉方法(CV)的结构变形监测/)
 
