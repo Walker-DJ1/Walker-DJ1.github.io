@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 筑建AI科技(ArchiAI Technology) Blog空间(AI-Aided Civil and Infrastructure Engineering)
+title: 筑建AI科技(ArchiAI Technology) 的Blog空间
 permalink: /about/
 published: true
 ---
